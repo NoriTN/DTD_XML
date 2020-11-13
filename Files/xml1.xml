@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concession SYSTEM "concession.dtd">
+<concession marque="Toyota" nom="Tayoto" adresse="ZA Aytre">
+	<zone libele="EXPO" placemax="50">
+		<vehicule	modele="yarousse"
+					serie="Z"
+					puissance="500"
+					carburant="DIESEL"
+					prix="20000"
+					remise="1"
+					type="NEUF"
+					marque="Toyota"/>
+		<vehicule	modele="yarusse"
+					serie="B"
+					puissance="100"
+					carburant="ELEC"
+					prix="2000"
+					remise="200"
+					type="NEUF"
+					marque="Toyota"/>
+	</zone>
+	<zone libele="PARKING">
+		<vehicule	modele="yasse"
+					serie="A"
+					puissance="100"
+					carburant="ELEC"
+					prix="200"
+					remise="20"
+					type="OCCAS"
+					marque="Toyota">
+			<essai	nom="nom1"
+					prenom="prenom1"
+					adresse="adresse1"
+					npermis="npermis1"
+					dateobtention="dateob1"
+					dateessai="dateessai1"
+					commercial="commercial1"
+					kmdebut="kmdebut1"
+					kmfin="kmfin1"
+					societe="johnbobcompagnie"/>
+			<essai	nom="nom2"
+					prenom="prenom2"
+					adresse="adresse2"
+					npermis="npermis2"
+					dateobtention="dateob2"
+					dateessai="dateessai2"
+					commercial="commercial2"
+					kmdebut="kmdebut2"
+					kmfin="kmfin2"/>
+			<essai	nom="nom3"
+					prenom="prenom3"
+					adresse="adresse3"
+					npermis="npermis3"
+					dateobtention="dateob3"
+					dateessai="dateessai3"
+					commercial="commercial3"
+					kmdebut="kmdebut3"
+					kmfin="kmfin3"/>
+		</vehicule>
+		<vehicule	modele="yausse"
+					serie="C"
+					puissance="100"
+					carburant="ELEC"
+					prix="2000000"
+					remise="100"
+					type="OCCAS"
+					marque="Toyota">
+			<essai	nom="nom4"
+					prenom="prenom4"
+					adresse="adresse4"
+					npermis="npermis4"
+					dateobtention="dateob4"
+					dateessai="dateessai4"
+					commercial="commercial4"
+					kmdebut="kmdebut4"
+					kmfin="kmfin4"/>
+			<acheteur	nom="Pioupiou"
+						prenom="Pigeon"
+						adresse="7 rue Pigeonnier"
+						comercial="Winner"
+						prix="1999900"/>
+		</vehicule>
+		<vehicule	modele="yarue"
+					serie="D"
+					puissance="100"
+					carburant="ESSENCE"
+					prix="2000"
+					remise="200"
+					type="OCCAS"
+					marque="Toyota"/>
+	</zone>
+	<zone libele="ATELIER" placemax="5">
+		<repa	nomclient="John BOB de LEPONGE"
+				numdossier="A1"
+				immatriculation="012345"
+				nomassur="Tumtam"
+				numassur="007"
+				dureeimmo="7"
+				infpanne="Femme au volant..."
+				numdevis="00001"/>
+		<repa	nomclient="Jyme Carré PasRectangle"
+				numdossier="A2"
+				immatriculation="012346"
+				nomassur="Mouf"
+				numassur="009"
+				dureeimmo="3"
+				infpanne="Vieux au volant..."
+				numdevis="00002"/>
+	</zone>
+</concession>
